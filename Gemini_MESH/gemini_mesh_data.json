@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "saved_at": "2026-05-06 18:03:38",
+  "max_context_messages": 10,
+  "bots": [
+    {
+      "id": 1,
+      "name": "Code Helper",
+      "model": "gemini-1.5-flash",
+      "api_key_obfuscated": "BnoXUD1ICXY1KQofZzw+N2p6",
+      "system_instruction": "Eres un asistente experto en programación.",
+      "temperature": 0.3,
+      "message_queue": [
+        {
+          "role": "user",
+          "content": "¿Cómo implemento una lista enlazada?"
+        },
+        {
+          "role": "assistant",
+          "content": "Te explico paso a paso..."
+        }
+      ],
+      "state_stack": []
+    },
+    {
+      "id": 2,
+      "name": "Creative Writer",
+      "model": "gemini-1.5-pro",
+      "api_key_obfuscated": "BnoXUD1ICXY1KQofZzw+N2p5",
+      "system_instruction": "Eres un asistente creativo para escritura.",
+      "temperature": 0.9,
+      "message_queue": [
+        {
+          "role": "user",
+          "content": "hola pa"
+        },
+        {
+          "role": "assistant",
+          "content": "[SIMULACIÓN] Respuesta para: 'hola pa...'. Modelo: gemini-1.5-pro, Temp: 0.9 (Error API: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n])"
+        }
+      ],
+      "state_stack": []
+    },
+    {
+      "id": 3,
+      "name": "Study Buddy",
+      "model": "gemini-1.5-flash",
+      "api_key_obfuscated": "BnoXUD1ICXY1KQofZzw+N2p4",
+      "system_instruction": "Eres un tutor académico que explica de forma sencilla.",
+      "temperature": 0.5,
+      "message_queue": [],
+      "state_stack": []
+    }
+  ],
+  "error_log": []
+}
